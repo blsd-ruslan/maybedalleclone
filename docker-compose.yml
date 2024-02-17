@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  react-app:
+    image: react-app:latest
+    container_name: docker-react
+    ports:
+      - "5173:5173"
+    build: .
